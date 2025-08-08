@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Usage
+#$ ./total_mp4_duration.sh ~/Downloads/MyVideos
+#Total duration: 01:25:42
 # Check if a path was provided
 if [ -z "$1" ]; then
   echo "Usage: $0 /path/to/directory"
